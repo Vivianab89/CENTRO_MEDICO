@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Listado de médicos</title>
+<link rel="stylesheet" href="/CENTRO MEDICO/styles/style.css">
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<div class="container">
+    <header class="d-flex justify-content-center py-3">
+        <div class="logo">
+            <center>
+                <image src="/Centro-Medico/Imagenes/logo-no-background.png" alt="Logo Clinica" width="200px">
+                </image>
+            </center>
+            <h1 class="nombre-clinica">Listado de médicos</h1>
+        </div>
+    </header>
+</div>
+
+<main>
+    <h2>Listado medicos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Número de Cédula</th>
+                <th>Consultorio</th>
+                <th>Telefono</th>
+                <th>Correo</th>
+                <th>Especialidad</th>
+                <th>Paciente</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-medicos">
+            <!-- Se agrega el contenido dinamicamente por medio de JS -->
+            <tr>
+                <td>Xiomara</td>
+                <td>Buitrago</td>
+                <td>1012354589</td>
+                <td>101</td>
+                <td>3212563634</td>
+                <td>xiomara@clinicamoscati.com</td>
+                <td>Rehabilitación física</td>
+                <td>Isabella Medina</td>         
+            </tr>
+        </tbody>
+    </table>
+    <a href="../index.html"><input type="button" value="Volver"></a>
+</main>
+
+<div class="container">
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="/CENTRO MEDICO/index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+        <li class="nav-item"><a href="/CENTRO MEDICO/web/registro-pacientes.html" class="nav-link px-2 text-body-secondary">Registro
+            de pacientes</a></li>
+        <li class="nav-item"><a href="/CENTRO MEDICO/web/registro-medicos.html" class="nav-link px-2 text-body-secondary">Registro de
+            médicos</a></li>
+        <li class="nav-item"><a href="/CENTRO MEDICO/web/listado-pacientes.html" class="nav-link px-2 text-body-secondary">Listado de pacientes</a></li>
+        <li class="nav-item"><a href="/CENTRO MEDICO/web/listado-medicos.html" class="nav-link px-2 text-body-secondary">Listado de médicos</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 Viviana Buitrago - Desarrollo Back End Básico</p>
+    </footer>
+
+</div>
+</body>
+
+</html>

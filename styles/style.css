@@ -1,26 +1,35 @@
 /* Estilos CSS para el formulario */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #f5f5f500;
+    color: #ffffff;
     margin: 0;
     padding: 0;
+    background-image: url(/CENTRO\ MEDICO/Imagenes/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    
+
 }
 
 header, footer {
-    background-color: #4CAF50;
+    background-color: #06306800;
     color: #fff;
     padding: 20px;
 }
 
 footer{
-    position: static;
+    position:relative;
     bottom: 0;
     width: 100%;
 }
 
 footer p {
     text-align: center;
+    
 }
 
 h1,
@@ -30,7 +39,7 @@ h2 {
 }
 
 main {
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 
@@ -41,10 +50,15 @@ li{
 }
 
 .container-form{
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
+    display: grid;
 }
 
+.col-6{
+    margin: auto;
+    border-radius: 15px;
+}
 label {
     display: block;
     margin-bottom: 5px;
@@ -56,12 +70,21 @@ select {
     display: block;
     width: 100%;
     margin-bottom: 15px;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    padding: 8px;
+    border: 4px solid #ccc;
+    border-radius: 10px;
     font-size: 16px;
     font-family: sans-serif;
     box-sizing: border-box;
+}
+
+.btn-outline-light{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: sans-serif; 
+    border-width: 3px;
 }
 
 input[type="submit"],
@@ -100,8 +123,6 @@ td {
     text-align: center;
     border: 5px solid #4CAF50;
     background-color: #4CAF50;
-
-
 }
 
 td {
@@ -121,16 +142,23 @@ th {
     max-width: 70%;
 }
 .boton-container {
-    margin-block: 30px;
+    margin-block: 50px;
 }
 a{
     text-decoration: none;
 }
 .listado-servicios a {
-    color: #3e8e41;
+    color: #ffffff;
     font-size: 20px;
+    font-weight: bold ;
 }
 
-.listado-servicios li::marker {
-    content: 🐾;
+.nav-pills{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 3px 20px;
+    font-family: sans-serif; 
+    border-width: 3px;
+    font-size: 16px;
+    font-weight: bold ;
 }
