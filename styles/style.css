@@ -10,21 +10,23 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #999;
+    /*background-color: #999;*/
     
 
 }
 
 header, footer {
     background-color: #06306800;
-    color: #fff;
+    /*color: #fff;*/
     padding: 20px;
+    border-radius: 15px;
 }
 
 footer{
     position:relative;
     bottom: 0;
     width: 100%;
+    
 }
 
 footer p {
@@ -59,6 +61,14 @@ li{
     margin: auto;
     border-radius: 15px;
 }
+
+.nav-link{
+    margin: auto;
+    border-radius: 15px;
+    border-color: rgb(221, 68, 29);
+    background-color: #3e8e41
+}
+
 label {
     display: block;
     margin-bottom: 5px;
@@ -87,7 +97,7 @@ select {
     border-width: 3px;
 }
 
-input[type="submit"],
+/*input[type="submit"],
 input[type="button"] {
     background-color: #4CAF50;
     color: white;
@@ -103,7 +113,7 @@ input[type="button"] {
 input[type="submit"]:hover {
     background-color: #3e8e41;
 }
-
+*/
 span {
     color: red;
 }
@@ -117,16 +127,15 @@ table {
     margin-bottom: 30px;
 }
 
-th,
-td {
+th,td {
     padding: 10px;
     text-align: center;
-    border: 5px solid #4CAF50;
-    background-color: #4CAF50;
+    border: 5px solid #191277;
+    background-color: #042170a1;
 }
 
 td {
-    color: #fff;
+    color: #eeeef8;
 }
 
 th {
@@ -144,6 +153,7 @@ th {
 .boton-container {
     margin-block: 50px;
 }
+
 a{
     text-decoration: none;
 }
