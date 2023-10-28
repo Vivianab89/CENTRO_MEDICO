@@ -5,19 +5,19 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    background-image: url(/CENTRO\ MEDICO/Imagenes/fondo.png);
+    background-image: url(/CENTRO_MEDICO/Imagenes/fondo.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /*background-color: #999;*/
+    background-color: #999;
     
 
 }
 
 header, footer {
-    background-color: #06306800;
-    /*color: #fff;*/
+    background-color: #0421700a;
+    color: #fff;
     padding: 20px;
     border-radius: 15px;
 }
@@ -66,7 +66,7 @@ li{
     margin: auto;
     border-radius: 15px;
     border-color: rgb(221, 68, 29);
-    background-color: #3e8e41
+    background-color: #3e4a8e
 }
 
 label {
@@ -130,8 +130,9 @@ table {
 th,td {
     padding: 10px;
     text-align: center;
-    border: 5px solid #191277;
-    background-color: #042170a1;
+    border: 3px solid #071144a6;
+    background-color: #180755e5;
+    border-radius: 10px;
 }
 
 td {
@@ -139,7 +140,7 @@ td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #9b3a02af;
     font-weight: bold;
 }
 
@@ -163,7 +164,7 @@ a{
     font-weight: bold ;
 }
 
-.nav-pills{
+.nav-item{
     border-radius: 10px;
     cursor: pointer;
     padding: 3px 20px;
